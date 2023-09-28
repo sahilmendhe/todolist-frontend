@@ -1,0 +1,33 @@
+mat-card {
+    margin: 5px 10px 5px 10px;
+}
+
+.todo-cards {
+    /* margin-top: 10px; */
+    height: 530px;
+    overflow-y: auto;
+}
+
+.todo-cards::-webkit-scrollbar {
+    width: 5px;
+}
+
+.todo-cards::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+}
+
+.todo-cards::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.checkbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px;
+}
+
+.completed-card {
+    background-color: #a6f6ff92;
+}

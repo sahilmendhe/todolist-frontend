@@ -1,0 +1,6 @@
+<mat-form-field class="add-todo">
+    <input matInput placeholder="Add new todo" [(ngModel)]="todo.title" required>
+    <button mat-icon-button matSuffix (click)="addTodo()">
+        <mat-icon>add</mat-icon>
+    </button>
+</mat-form-field>
